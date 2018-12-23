@@ -11,6 +11,7 @@
   </div>
   <div>
     <label for "Artist Name">Artist: </label>
+    <% binding.pry %>
     <input type="text" name="artist_name" id="Artist Name" value="<%= @song.artist.name %>">
   </div>
     <% Genre.all.each do |genre| %>
